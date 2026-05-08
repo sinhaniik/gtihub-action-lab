@@ -1,0 +1,9 @@
+services:
+  backend:
+    image: github-actions-lab:1.0
+
+
+    build:
+      context: .
+    ports: 
+      - "8080:8080"
